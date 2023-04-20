@@ -74,4 +74,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,IncomeAnalyzeActivity.class);
         startActivity(intent);
     }
+    public void enterTradeRecord(View view){
+        Intent intent=new Intent(this,TradeRecordActivity.class);
+        startActivity(intent);
+    }
 }
